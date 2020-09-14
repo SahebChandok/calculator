@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.calcy{
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  border: 2px solid black;
+  margin-top: 20px;
+  background-color: rgba(0,0,0,0.3);
+}
+input{
+  width: 370px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 14px;
+  font-size: 30px;
+
+
+}
+.but{
+  width: 105px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 14px;
+  margin-right: 10px;
+  background-color: gray;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 30px;
+}
+#clear{
+  width: 370px;
+  height: 50px;
+  margin-left: 14px;
+  background-color: gray;
+  font-weight: bold;
+  font-size: 30px;
+
+}

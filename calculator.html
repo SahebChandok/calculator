@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <div class="calcy">
+      <form class="" action="index.html" method="post" name="form">
+        <input type="text" name="screen" value=""><br>
+        <button type="button" name="button" value="1" class='but' onclick="form.screen.value += '1' ">1</button>
+        <button type="button" name="button" value="2" class='but' onclick="form.screen.value += '2'">2</button>
+        <button type="button" name="button" value="3" class='but'onclick="form.screen.value += '3' ">3</button><br><br>
+
+        <button type="button" name="button" value="4" class='but' onclick="form.screen.value += '4' ">4</button>
+        <button type="button" name="button" value="5" class='but' onclick="form.screen.value += '5' ">5</button>
+        <button type="button" name="button" value="6" class='but' onclick="form.screen.value += '6' ">6</button><br><br>
+
+        <button type="button" name="button" value="7" class='but' onclick="form.screen.value += '7'">7</button>
+        <button type="button" name="button" value="8" class='but' onclick="form.screen.value += '8' ">8</button>
+        <button type="button" name="button" value="9" class='but' onclick="form.screen.value += '9' ">9</button><br><br>
+
+        <button type="button" name="button" value="+" class='but' onclick="form.screen.value += '+' ">+</button>
+        <button type="button" name="button" value="-" class='but' onclick="form.screen.value += '-' ">-</button>
+        <button type="button" name="button" value="*" class='but' onclick="form.screen.value += '*'">X</button><br><br>
+
+        <button type="button" name="button" value="/" class='but' onclick="form.screen.value += '/' ">/</button>
+        <button type="button" name="button" value="0" class='but' onclick="form.screen.value += '0'">0</button>
+        <button type="button" name="button" value="=" class='but' onclick="form.screen.value = eval(form.screen.value)" >=</button><br><br>
+
+        <button type="button" name="button" onclick="form.screen.value = ''" id="clear"">Clear All</button>
+      </form>
+
+    </div>
+  </body>
+</html>
